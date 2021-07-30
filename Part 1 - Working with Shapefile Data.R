@@ -6,7 +6,7 @@ library(rgdal)
 
 ###############################################################################################################
 #----------- Set Working Directory ----------
-setwd("/Users/polly.stewartibm.com/Box Sync/Mapping-in-R")
+setwd("...")
 
 #----------- Read in data -----------
 data <- read.csv("data_for_map.csv")
@@ -21,7 +21,6 @@ data_shapefile <- data
 
 #------- Read in shapefile ---------
 # I got these from London Data Store: https://data.london.gov.uk/dataset/london-area-classification
-# Alternatively you can download the files within the Location folder I have added...
 # Borough is the largest polygon shape for london and the most recognisable e.g. Highbury & Islington
 Borough <- shapefile("London_Borough_Excluding_MHW.shp") 
 
@@ -66,7 +65,8 @@ CAZ <- spTransform(CAZ, CRS("+proj=longlat +datum=WGS84 +no_defs"))
 # to do this I am firstly finding the centroid of my polygons
 # then I am finding the centroid of my "CAZ" polygon. 
 # CAZ is London's Central Activities Zone, which I am assuming at the centre of this point is my 'middle' of London
-# Finally, I am finding the distance between my zone polygon centroids and my CAS polygon centroid
+# Finally, I am finding the distance between my zone polygon centroids and my CAZ polygon centroid
+# This is a proxy for the distance to the city centre
 
 # ------- Centroids ---------
 # Find the centroid of 'middle' of the polygon shape

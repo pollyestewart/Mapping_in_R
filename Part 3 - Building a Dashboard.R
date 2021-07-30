@@ -7,7 +7,7 @@ library(shinyWidgets)
 
 ###############################################################################################################
 # Data prep for the Map
-setwd("/Users/polly.stewartibm.com/Box Sync/Mapping-in-R")
+setwd("...")
 
 # Borough is the largest polygon shape for london and the most recognisable e.g. Highbury & Islington
 Borough <- shapefile("London_Borough_Excluding_MHW.shp") 

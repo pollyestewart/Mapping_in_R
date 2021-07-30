@@ -9,7 +9,7 @@ library(zoo)
 ###############################################################################################################
 #----------- Read in data from Part 1 R Script
 # OR just read in the already prepped files :D
-setwd("/Users/polly.stewartibm.com/Box Sync/Mapping-in-R")
+setwd("...")
 
 # Read in data prepped previously
 data <- read.csv("data_for_map_prepped.csv")
