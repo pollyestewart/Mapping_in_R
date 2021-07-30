@@ -9,8 +9,8 @@ library(rgdal)
 setwd("...")
 
 #----------- Read in data -----------
-data <- read.csv("data_for_map.csv")
-point_data <- read.csv("point_data.csv")
+data <- read.csv("inputs/data_for_map.csv")
+point_data <- read.csv("inputs/point_data.csv")
 
 # I have split these up so that you create a shapefile and a regular dataframe 
 # regular dataframe that we will add info from the shapefile too

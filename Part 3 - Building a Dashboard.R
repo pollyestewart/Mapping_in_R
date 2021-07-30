@@ -27,8 +27,8 @@ detach("package:raster", unload=TRUE)
 
 
 # Read in data prepped previously
-data <- read.csv("data_for_map_prepped.csv")
-point_data <- read.csv("point_data_prepped.csv")
+data <- read.csv("inputs/data_for_map_prepped.csv")
+point_data <- read.csv("inputs/point_data_prepped.csv")
 
 # data prep for each granularity type
 data_Borough <- data %>%
