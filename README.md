@@ -13,7 +13,7 @@ Follow through the code to generate an interactive dashboard with maps at the en
 - A basic understanding of R programming
 
 ### Data:
-The geospatial location we are using as an example is London. There are many different types of geospatial data, and in this we are using a relatively standard Shapefile format. 
+The example geospatial location is London. There are many different types of geospatial data, and in this we are using a relatively standard Shapefile format. 
 
 The London data store is an amazing open data source that included many different geospatial data sources. For our basic we are going to use basic census/administrative boundaries as polygon shapes. Please download the shapefiles for the following geospatial granularities:
 
