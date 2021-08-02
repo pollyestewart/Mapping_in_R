@@ -4,7 +4,7 @@ The purpose of this repository is to introduce people to working with geospatial
 
 Follow through the code to generate an interactive dashboard with maps!
 
-![Map Gif](GitHubMapExample.gif)
+![Map Example](https://github.com/pollyestewart/Mapping_in_R/blob/main/Map_Example.jpg)
 
 
 # Pre-requisities
