@@ -2,7 +2,7 @@
 
 The purpose of this repository is to introduce people to working with geospatial data, map visualisations and basic R Shiny dashboards. 
 
-Follow through the code to generate an interactive dashboard with maps at the end!
+Follow through the code to generate an interactive dashboard with maps!
 
 ![Map Gif](GitHubMapExample.gif)
 
@@ -15,7 +15,7 @@ Follow through the code to generate an interactive dashboard with maps at the en
 ### Data:
 The example geospatial location is London. There are many different types of geospatial data, and in this we are using a relatively standard Shapefile format. 
 
-The London data store is an amazing open data source that included many different geospatial data sources. For our basic we are going to use basic census/administrative boundaries as polygon shapes. Please download the shapefiles for the following geospatial granularities:
+The London data store is an amazing open data source that includes many different geospatial data sources. We are going to use basic census/administrative boundaries as polygon shapes. Please download the shapefiles for the following geospatial granularities:
 
 - Boroughs - the largest sub-groups of London and the most recognisable
 - Wards - sub-areas within Boroughs
